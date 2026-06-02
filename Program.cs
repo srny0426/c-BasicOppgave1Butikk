@@ -39,11 +39,11 @@ while (!ferdigÅHandle)
 double kalkulerPris()
 {
     double total = 0;
-    foreach (string ting in handlekurv)
+    foreach (string produkt in handlekurv)
     {
         for (int i = 0; i < produkter.GetLength(0); i++)
         {
-            if ((string)produkter[i, 0] == ting)
+            if ((string)produkter[i, 0] == produkt)
             {
                 var prisMedRabatt = (int)produkter[i, 2] * (double)produkter[i, 1];
                 total += prisMedRabatt;
