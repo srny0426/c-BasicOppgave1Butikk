@@ -1,5 +1,7 @@
 Butikkoppgave:
 
+Jeg vil lage en funksjonell matbutikk som lar brukeren legge til produkter i en handlekurv og få en totalpris basert på rabatt per produkt.
+
     1. Lager et array med produkter, rabattprosent og pris.
     2. Setter opp en while loop som lar brukeren begynne handelen.
     3. Lager en for loop som går gjennom alle produktene og skriver ut til brukeren, slik at de kan velge fra listen.
